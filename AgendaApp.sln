@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.ApiUsuarios", "AgendaApp.ApiUsuarios\AgendaApp.ApiUsuarios.csproj", "{D1D8992C-0A2B-486E-AFDA-7D5176687698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.ApiTarefas", "AgendaApp.ApiTarefas\AgendaApp.ApiTarefas.csproj", "{5942FA0F-32D1-4270-870A-43B206DFF5CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Camada de Apresentação", "1-Camada de Apresentação", "{0C298A28-C170-41DC-AAA2-1E18AD73075D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Camada de Aplicação", "2-Camada de Aplicação", "{6F076FFE-36FF-4DB7-9657-B25EC23836DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Camada de Dominio", "3-Camada de Dominio", "{9151997B-0F1B-468C-BAC2-E7A5ECB381CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Camada de infraestrutura", "4-Camada de infraestrutura", "{61FBDFA6-4336-4E37-AF52-EF06F2561B52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D8992C-0A2B-486E-AFDA-7D5176687698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D8992C-0A2B-486E-AFDA-7D5176687698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D8992C-0A2B-486E-AFDA-7D5176687698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D8992C-0A2B-486E-AFDA-7D5176687698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5942FA0F-32D1-4270-870A-43B206DFF5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5942FA0F-32D1-4270-870A-43B206DFF5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5942FA0F-32D1-4270-870A-43B206DFF5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5942FA0F-32D1-4270-870A-43B206DFF5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1D8992C-0A2B-486E-AFDA-7D5176687698} = {0C298A28-C170-41DC-AAA2-1E18AD73075D}
+		{5942FA0F-32D1-4270-870A-43B206DFF5CF} = {0C298A28-C170-41DC-AAA2-1E18AD73075D}
+	EndGlobalSection
+EndGlobal
